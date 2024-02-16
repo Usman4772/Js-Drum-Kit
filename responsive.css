@@ -1,0 +1,48 @@
+
+@media screen and (max-width:716px) {
+
+    .main-container h1{
+        font-size: 4rem;
+        color: red;
+    }
+    .keys{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:509px) {
+
+    .main-container h1{
+        font-size: 4rem;
+        color: red;
+    }
+    .keys{
+        padding: 0 2rem;
+    }
+    .keys .key{
+        width:4rem;
+        height: 4rem;
+        gap: .3rem;
+    }
+    
+}
+@media screen and (max-width:509px) {
+
+    .main-container h1{
+        font-size: 3.2rem;
+    }
+    .keys{
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width:311px) {
+
+    .main-container h1{
+        font-size: 3rem;
+    }
+    .keys{
+        flex-wrap: wrap;
+    }
+
+}
